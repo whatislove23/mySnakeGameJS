@@ -1,0 +1,54 @@
+* {
+  font-family: "Pixelify Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: green;
+  overflow: hidden;
+}
+#canvas {
+  width: 100vw;
+  height: 100vh;
+}
+.score1 {
+  padding-left: 15px;
+  font-size: 30px;
+  /* position: absolute; */
+}
+.container {
+  position: relative;
+}
+
+.alert {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  font-size: 45px;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.502);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.top-panel {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.speed_block {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  gap: 5px;
+}
+.speed_block > button {
+  font-size: 30px;
+  padding: 5px;
+  border: none;
+  background-color: rgba(0, 128, 0, 0.344);
+  cursor: pointer;
+}
